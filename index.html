@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Editkaro.in Portfolio</title>
+</head>
+<body>
+    <header style="padding-bottom:60px;">
+        <img id="logo"src="logo.jpg">
+        <h1 style="margin: 30px 0px;">Editkaro.in</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Editkaro.in</h1>
+            <p>Your destination for professional video editing and social media marketing services. Our portfolio highlights a diverse range of projects, from dynamic short-form content to long-form documentaries and eCommerce ads. We are dedicated to crafting visually compelling stories that make an impact across various platforms.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <div class="hero about-hero">
+            <h1>About Us</h1>
+            <p>Editkaro.in specializes in social media marketing and professional video editing services, dedicated to transforming creative concepts into engaging visual stories. Our portfolio includes a variety of projects, from short-form and long-form videos to eCommerce ads and documentary-style productions.</p>
+            <p>What sets us apart is our commitment to quality and collaboration. Our experienced team works closely with clients to capture their unique brand narratives, ensuring each project exceeds expectations. Explore our diverse portfolio to see how we can elevate your video content and marketing strategy, helping you create a lasting impact in today’s digital landscape.</p>
+        </div>
+    </section>
+
+    <!-- Filters Section (Categories) -->
+    <div class="filter-section">
+        <a href="#" onclick="filterVideos('all')">All</a>
+        <a href="#" onclick="filterVideos('short-form')">Short-form Videos</a>
+        <a href="#" onclick="filterVideos('long-form')">Long-form Videos</a>
+        <a href="#" onclick="filterVideos('gaming')">Gaming Videos</a>
+        <a href="#" onclick="filterVideos('football')">Football Edits</a>
+        <a href="#" onclick="filterVideos('ecommerce')">eCommerce Ads</a>
+        <a href="#" onclick="filterVideos('documentary')">Documentary Style</a>
+        <a href="#" onclick="filterVideos('color-grading')">Color Grading</a>
+        <a href="#" onclick="filterVideos('anime')">Anime Videos</a>
+        <a href="#" onclick="filterVideos('ads')">Ads</a>
+    </div>
+
+    <!-- Portfolio Section -->
+    <main id="portfolio">
+        <div class="portfolio">
+            <div class="video-card short-form">
+                <h3>Short-form Video 1</h3>
+                <video controls poster="shortform-preview.jpg" src="videosshort-form-1.mp4"></video>
+            </div>
+            <div class="video-card long-form">
+                <h3>Long-form Video 1</h3>
+                <video controls poster="longform-preview.jpg" src="Ruri Ohama Re-edited.mp4"></video>
+            </div>
+            <div class="video-card gaming">
+                <h3>Gaming Video 1</h3>
+                <video controls poster="gaming-preview.jpg" src="Gaming Edited YT Video.mp4"></video>
+            </div>
+            <div class="video-card football">
+                <h3>Football Edit 1</h3>
+                <video controls poster="football-preview.jpg" src="Ronaldo vs messi.mp4"></video>
+            </div>
+            <div class="video-card ecommerce">
+                <h3>eCommerce Ad 1</h3>
+                <video controls poster="ecommerce-preview.jpg" src="3rd Mockup Edit.mp4"></video>
+            </div>
+            <div class="video-card documentary">
+                <h3>Documentary Style Video 1</h3>
+                <video controls poster="documentary-preview.jpg" src="Mohak Mangal Documentry Style.mp4"></video>
+            </div>
+            <div class="video-card color-grading">
+                <h3>Color Grading Video 1</h3>
+                <video controls poster="colorgrading-preview.jpg" src="Color Grading.mp4"></video>
+            </div>
+            <div class="video-card anime">
+                <h3>Anime Video 1</h3>
+                <video controls poster="anime-preview.jpg" src="Comp 1_1.mp4"></video>
+            </div>
+            <div class="video-card ads">
+                <h3>Ad Video 1</h3>
+                <video controls poster="ads-preview.jpg" src="Coca Cola Landing Page AD.mp4"></video>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <div class="hero contact-hero">
+            <h1>Contact Us</h1>
+            <p>Address: 123 Editkaro Street, Videotown, VT 45678</p>
+            <p>Follow us on: 
+                <a href="https://facebook.com" target="_blank">Facebook</a>, 
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Editkaro.in | All Rights Reserved</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
